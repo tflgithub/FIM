@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dip"
+    android:background="@drawable/skinpic_blue">
+
+    <ImageButton
+        android:id="@+id/title_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="5dip"
+        android:background="@drawable/title_btn_l_selector"
+        android:src="@drawable/title_btn_back" />
+
+
+    <TextView
+        android:id="@+id/ivTitleName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="我的联系人"
+        android:textColor="#ffffffff"
+        android:textSize="18.0sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/ib_add_contacter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fg"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dip"
+        />
+</RelativeLayout>
